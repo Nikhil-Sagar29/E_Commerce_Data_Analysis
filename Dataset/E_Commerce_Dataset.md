@@ -1,4 +1,5 @@
-** Brazilian E-Commerce Public Dataset by Olist **
+ Brazilian E-Commerce Public Dataset by Olist 
+--------------------------------------------------------------------------------------------------------------------------
 
 [![Download Dataset](https://img.shields.io/badge/Dataset-Download-blue)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
