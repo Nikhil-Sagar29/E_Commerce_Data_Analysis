@@ -2,10 +2,10 @@ Exploratory Data Analysis (EDA) & Basic Metrics
 -----------------------------------------------------------------------------------------------------------------
 Objectives
 -----------------------------------------------------------------------------------------------------------------
-1. Understand dataset structure and scale
-2. Identify key business indicators
-3. Get initial overview of customers, sales, and products
-
+1. Understand dataset size and structure
+2. Identify top cities and product categories
+3. Analyze overall sales distribution
+	
 Logic
 ------------------------------------------------------------------------------------------------------------------  
 1. Used joins across orders, customers, payments, products
