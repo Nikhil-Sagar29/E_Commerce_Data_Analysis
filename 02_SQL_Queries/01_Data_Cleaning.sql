@@ -81,6 +81,8 @@ From products
 Select product_category, Count(*)
 From product_category
 Group By product_category
+Order By Count(*) Desc
+                                          
 </Details>
                                           
 Observations
@@ -89,7 +91,4 @@ Observations
 2. No major negative values in price/payment → data is reliable
 3. Customer city names had inconsistencies (case sensitivity)                                          
 
-
-
                                           
-Order By Count(*) Desc
