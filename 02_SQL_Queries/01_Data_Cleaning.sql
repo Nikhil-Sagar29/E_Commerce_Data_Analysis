@@ -2,18 +2,17 @@
 -----------------------------------------------------------------------------------------------
 Objective
 -------------------------------------------------------------------------------------------------                                         
-1. Ensure data accuracy, consistency, and reliability before analysis                                      
-2. Identify missing values, duplicates, and inconsistencies                                          
-3. Standardize fields and prepare derived columns for analysis
+1. Identify and handle null values across tables
+2. Check for duplicates and inconsistencies
+3. Standardize categorical data
+4. Prepare dataset for accurate analysis
 
 Logic
 ------------------------------------------------------------------------------------------------
-1. Checked NULL values across all major tables                                          
-2. Identified duplicate customer records                                          
-3. Standardized text fields (e.g., city names using LOWER)
-4. Validated numerical fields (price, payment_value)
-5. Created derived view: 
-            - product_category = handled NULL categories using COALESCE
+1. Used COUNT() to detect null values
+2. Used GROUP BY to find inconsistencies (city names)
+3. Used HAVING COUNT(*) > 1 to detect duplicates
+4. Used COALESCE() to replace null product categories
 
 <Details>
 --1. Customer Table
@@ -85,10 +84,12 @@ Order By Count(*) Desc
                                           
 </Details>
                                           
-Observations
+Key Insights
 -------------------------------------------------------------------------------------------------------------------                                          
 1. Some product categories were missing - replaced with 'unknown'
-2. No major negative values in price/payment → data is reliable
-3. Customer city names had inconsistencies (case sensitivity)                                          
+2. Dataset is mostly clean with minimal null values
+3. Few inconsistencies found in text fields (city names)
+4. Product category required null handling
+5. No major duplicate issues affecting analysis                                   
 
                                           
