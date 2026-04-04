@@ -87,7 +87,7 @@ Order By Count(*) Desc
                                           
 Observations
 -------------------------------------------------------------------------------------------------------------------                                          
-1. Some product categories were missing → replaced with 'unknown'
+1. Some product categories were missing - replaced with 'unknown'
 2. No major negative values in price/payment → data is reliable
 3. Customer city names had inconsistencies (case sensitivity)                                          
 
