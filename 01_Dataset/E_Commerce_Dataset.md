@@ -8,8 +8,3 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 This is real commercial data, it has been anonymised, and references to the companies and partners in the review text have been replaced with the names of Game of Thrones great houses.
 
 ---------------------------------------------------------------------------------------------------------------------------
-<p align="center">
-  <img src="Images/table_flow.png" width="700"/>
-  <br>
-  <em>Table relationship and data flow used for analysis</em>
-</p>
