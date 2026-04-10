@@ -45,6 +45,11 @@ Identify top customers based on total spending and analyze their category-wise p
 | fe2b2f7... | 1 | 11531 | 2 | moveis_decoracao | 6 | 6290 | 54.55% | credit_card | 5 | High Value |
 | fe2b2f7... | 1 | 11531 | 2 | ferramentas_jardim | 5 | 5242 | 45.46% | credit_card | 5 | High Value |
 
+Insight:
+- Top customers contribute significantly to overall revenue  
+- Spending is often concentrated in 1–2 product categories  
+- High-value customers tend to purchase across multiple categories  
+- Payment methods vary but high spend is often linked with structured payments
 
 ## 🔹 2. Sales Analysis
 
@@ -147,7 +152,7 @@ Evaluate customer satisfaction and identify factors influencing review scores.
 ---
 
 ## 📂 Dataset
-- Brazilian E-commerce Dataset (Olist)
+- [Download Dataset](01_Dataset/E_Commerce_Dataset.md) 
 
 ---
 
@@ -160,3 +165,18 @@ Evaluate customer satisfaction and identify factors influencing review scores.
 
 ## 📌 Conclusion
 This project demonstrates how SQL can be used to perform end-to-end data analysis — from data cleaning to generating actionable business insights — by connecting multiple datasets and uncovering patterns that impact business decisions.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+👤 Author
+Nikhil Sagar
+
+🎓 BBA Graduate 📊 Data Analyst
+
+Skills:
+1. SQL
+2. Power BI
+3. Microsoft Excel
+4. Data Analysis & Visualization
+
+⭐ If You Found This Useful Consider starring ⭐ the repository to support the project.
