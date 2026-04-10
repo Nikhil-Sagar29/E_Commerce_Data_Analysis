@@ -83,11 +83,7 @@ Select
 	pt.product_category,
 	Count(*) as Extreme_orders,
     Round(MAX(Extract(EPOCH from (o.order_delivered_customer_date - o.order_Delivered_carrier_date)) / 86400),
-	0) AS max_delivery_time,
-	ROUND(
-    COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (), 
-    0
-) AS percentage
+	0) AS max_delivery_time
 from Orders o 
 join Order_items oi
 on o.order_id = oi.order_id
