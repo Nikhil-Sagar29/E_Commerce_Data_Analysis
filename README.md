@@ -1,4 +1,4 @@
-# 📊 E-Commerce SQL Data Analysis Project
+# 🛒 E-Commerce SQL Data Analysis Project
 
 ## 📌 Overview
 This project focuses on analyzing an e-commerce dataset using SQL to uncover insights related to customer behavior, sales trends, delivery performance, payment preferences, and customer satisfaction.
@@ -152,7 +152,8 @@ Evaluate customer satisfaction and identify factors influencing review scores.
 ---
 
 ## 📂 Dataset
-- [Download Dataset](01_Dataset/E_Commerce_Dataset.md) 
+--
+Brazilian E-Commerce Public Dataset (Olist) - [![Download Dataset](https://img.shields.io/badge/Dataset-Download-black)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ---
 
@@ -166,6 +167,12 @@ Evaluate customer satisfaction and identify factors influencing review scores.
 ## 📌 Conclusion
 This project demonstrates how SQL can be used to perform end-to-end data analysis — from data cleaning to generating actionable business insights — by connecting multiple datasets and uncovering patterns that impact business decisions.
 
+--
+
+Check out the Power BI Dashboard of E-Commerce Dataset
+--
+[![Download Power BI Dashboard](https://img.shields.io/badge/E_commerce_Power_BI_Dashboard-Download-black)](https://github.com/Nikhil-Sagar29/E_Commerce_PowerBI_Dashboard/tree/main)
+
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 👤 Author
@@ -178,5 +185,6 @@ Skills:
 2. Power BI
 3. Microsoft Excel
 4. Data Analysis & Visualization
+5. Data Cleaning
 
 ⭐ If You Found This Useful Consider starring ⭐ the repository to support the project.
